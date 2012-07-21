@@ -34,7 +34,7 @@ Very Quick Install
 
 Quick Install
 =============
-
+Notice: Use this guide if you use sources from github `livestreet-vkfeed` repository
 1. copy vkfeed folder to {$livestreet_dir}/plugins/
 2. edit vkfeed/config/config.php file
     
