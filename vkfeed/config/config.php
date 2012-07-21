@@ -16,7 +16,7 @@ $config=array();
  *
  * При типе vote, настройте параметр vote_rating!
  */
-$config['type'] = 'vote';
+$config['type'] = 'add';
 $config['vote_rating'] = '___module.blog.index_good___'; // Рейтинг, при котором отправляется сообщение на стенку, по умолчанию равен рейтингу попадания топика на главную
 
 $config['wall'] = '-123456'; // ID пользователя или группы. ID группы начинается со знака -, например '-123'. ID пользователя пишется без всяких знаков, просто '456'
@@ -54,5 +54,3 @@ $config['file'] = '___sys.cache.dir___vkfeed_token.txt'; // Путь до фай
 Config::Set('router.page.vkfeed', 'PluginVkfeed_ActionVkfeed');
 
 return $config;
-
-?>
