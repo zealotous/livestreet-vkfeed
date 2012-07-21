@@ -55,7 +55,7 @@ $config['auth_uri'] = "https://api.vk.com/oauth/authorize?".
 						"client_id={$config['appId']}&".
 						"scope={$config['scope']}&".
 						"redirect_uri={$config['redirect_uri']}&".
-						"response_type={$config[response_type]}";
+						"response_type={$config['response_type']}";
 
 $config['file'] = '___sys.cache.dir___vkfeed_token.txt'; // Путь до файла с токеном
 
