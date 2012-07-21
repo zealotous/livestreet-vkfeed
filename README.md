@@ -22,6 +22,7 @@ Create Standalone aka Desktop application http://vk.com/editapp?act=create you w
 
 Very Quick Install
 ==================
+
 1. install vkfeed
 2. put in url your appId
   https://api.vk.com/oauth/authorize?client_id={$appId}&scope=wall,offline&redirect_uri=http%3A//oauth.vk.com/blank.html&response_type=token
@@ -34,7 +35,9 @@ Very Quick Install
 
 Quick Install
 =============
+
 Notice: Use this guide if you use sources from github `livestreet-vkfeed` repository
+
 1. copy vkfeed folder to {$livestreet_dir}/plugins/
 2. edit vkfeed/config/config.php file
     
