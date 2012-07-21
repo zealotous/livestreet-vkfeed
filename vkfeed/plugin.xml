@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>
+		<lang name="default">Vkfeed</lang>
+	</name>
+	<author>
+		<lang name="default">artemeff</lang>
+	</author>
+	<homepage>http://artemeff.ru/</homepage>
+	<settings>{vkfeed}</settings>
+	<version>1.2</version>
+	<requires>
+		<livestreet>0.4</livestreet>
+		<plugins>
+		</plugins>
+	</requires>
+	<description>
+		<lang name="default">Posting topics on wall in VKontakte</lang>
+		<lang name="russian">Репост топиков на стену ВКонтакте</lang>
+	</description>
+</plugin>
