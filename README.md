@@ -1,4 +1,4 @@
 vkfeed
 ======
 
-Crosspost from livestreet cms to vk.com group wall
+Crosspost from livestreet cms to vk.com user or group wall
