@@ -46,6 +46,17 @@ $config['date_format'] = 'H:i d.m.Y'; // Формат даты при испол
 $config['appId'] = 'xxxxxxx'; // Application ID
 $config['appSecret'] = 'xxxxxxxxxxxx'; // Security key
 
+$config['scope'] = 'offline,wall';
+$config['redirect_uri'] = urlencode("http://oauth.vk.com/blank.html");
+$config['response_type'] = 'token';
+$config['scope'] = 'offline,wall';
+
+$config['auth_uri'] = "https://api.vk.com/oauth/authorize?".
+						"client_id={$config['appId']}&".
+						"scope={$config['scope']}&".
+						"redirect_uri={$config['redirect_uri']}&".
+						"response_type={$config[response_type]}";
+
 $config['file'] = '___sys.cache.dir___vkfeed_token.txt'; // Путь до файла с токеном
 
 /**

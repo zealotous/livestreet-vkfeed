@@ -2,7 +2,7 @@
 
 {if !$bOk}
 	Для работы плагина нам необходимо авторизоваться вконтакте (получить токен) от имени администратора группы/страницы:<br />
-	<a href="http://api.vkontakte.ru/oauth/authorize?client_id={cfg name='plugin.vkfeed.appId'}&scope=offline,wall&redirect_uri={router page='vkfeed'}&response_type=code">Авторизоваться</a>
+	<a href="{cfg name='plugin.vkfeed.auth_uri'}">Авторизоваться</a>
 {else}
 	Токен успешно записан, <a href="{router page='vkfeed'}">вернуться</a>.
 {/if}
